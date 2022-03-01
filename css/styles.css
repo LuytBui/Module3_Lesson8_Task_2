@@ -1,0 +1,90 @@
+#logo {
+    height: 36px;
+}
+nav {
+    padding-left: 20px;
+    padding-right: 50px;
+}
+nav a, nav span {
+    font-size: 1em;
+    color: black;
+}
+.mini-banner{
+    background: #0067B8;
+    height: 30px;
+}
+.mini-banner a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85em;
+}
+
+.main-banner h1, .main-banner h4{
+    text-align: center;
+    font-family: SansSerif, sans-serif;
+}
+
+.main-banner ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-banner ul li:hover a {
+    text-decoration: underline;
+    font-size:110%;
+}
+
+.big-ass-img {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.mini-banner-2{
+    max-width: 500px;
+    flex: 1;
+}
+
+.nav-02{
+    max-width: 800px;
+    flex: 2;
+}
+.nav-02 .col-4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.follow-and-share {
+    height: 60px;
+    background: #726a6a;
+}
+
+.nav-bottom {
+    width: 100%;
+    background: #F2F2F2;
+}
+.nav-bottom * {
+    color: #816161;
+}
+.nav-bottom ul {
+    font-weight: bold;
+}
+.nav-bottom ul li {
+    background: #F2F2F2;
+}
+
+.nav-bottom .list-group-item {
+    border: none;
+}
+.nav-bottom ul li a {
+    font-size: 0.85em;
+    color: #816161;
+    text-decoration: none;
+    font-weight: normal;
+}
+.nav-bottom ul li:hover a {
+    font-weight: bold;
+    font-size:1.25em;
+}
+
+
+

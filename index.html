@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng Landing Page</title>
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="logo" src="img/microsoft-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><strong>| Surface</strong></a>
+                </li>
+
+                <!-- drop down #1-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Computers
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <!-- drop down #2-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Computers for Business
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <!-- drop down #3-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Accessories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <!-- drop down #4-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop now
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+
+            </ul>
+            <form class="d-flex">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    All Microsoft
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+
+                <!--  Search, Cart, Login  -->
+                <a class="nav-link" href="#">
+                    <span> Search </span>
+                    <span class="bi-search"></span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span> Cart </span>
+                    <span class="bi-cart"></span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span> Login </span>
+                    <span class="bi-person"></span>
+                </a>
+
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="mini-banner d-flex justify-content-center">
+    <a href="#">
+        Save big on Surface devices. Shop Deals >
+    </a>
+</div>
+
+<div class="main-banner container d-flex flex-column justify-content-center">
+    <h1>Microsoft Surface laptops and 2-in-1s</h1>
+    <h4>This Black History Month discover Surface devices with Windows 11, designed to fuel your originality, ideas and
+        passions*.</h4>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Celebrate Black History ></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Explore all products ></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Shop surface pro 8 ></a>
+        </li>
+    </ul>
+</div>
+
+<!--Big ass image in the middle-->
+<img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Hero_Black_History_V1.jpg?version=b401dbbd-3c28-4ae7-d545-d9c499533228"
+     alt="" class="big-ass-img">
+
+<section class="d-flex justify-content-around">
+    <div class="mini-banner-2 ms-4 me-4">
+        <h3>More choices than ever</h3>
+        <h5>Check out the most diverse selection of Surface devices yet, built for all the ways you create, work, play,
+            and connect.</h5>
+    </div>
+
+    <div class="nav-02 row">
+        <div class="col-4">
+            <a href="#">Compare devices</a>
+        </div>
+        <div class="col-4">
+            <a href="#">Help me choose</a>
+        </div>
+        <div class="col-4">
+            <a href="#">Deals</a>
+        </div>
+        <div class="col-4">
+            <a href="#">Surface at home</a>
+        </div>
+        <div class="col-4">
+            <a href="#">For education</a>
+        </div>
+        <div class="col-4 pl-4">
+            <a href="#">For business</a>
+        </div>
+    </div>
+</section>
+<section class="follow-and-share d-flex justify-content-between mt-4">
+    <div class="follow d-flex align-items-center ps-4">
+        <h5>Follow this page </h5>
+        <h1 class="bi-facebook ms-3"></h1>
+        <h1 class="bi-twitter ms-3"></h1>
+        <h1 class="bi-instagram ms-3"></h1>
+        <h1 class="bi-linkedin ms-3"></h1>
+
+    </div>
+    <div class="share d-flex align-items-center pe-4">
+        <h5>Share this page </h5>
+        <h1 class="bi-facebook ms-3"></h1>
+        <h1 class="bi-twitter ms-3"></h1>
+        <h1 class="bi-instagram ms-3"></h1>
+        <h1 class="bi-linkedin ms-3"></h1>
+    </div>
+</section>
+<section class="nav-bottom row pt-4">
+    <div class="col-2">
+        <ul class="list-group"> What's new
+            <li class="list-group-item"><a href="#">Surface Pro 8</a></li>
+            <li class="list-group-item"><a href="#">Surface Laptop Studio</a></li>
+            <li class="list-group-item"><a href="#">Surface Pro X</a></li>
+            <li class="list-group-item"><a href="#">Surface Go 3</a></li>
+            <li class="list-group-item"><a href="#">Surface Duo 2</a></li>
+            <li class="list-group-item"><a href="#">Surface Pro 7+8</a></li>
+            <li class="list-group-item"><a href="#">Windows 11 apps</a></li>
+        </ul>
+    </div>
+    <div class="col-2">
+        <ul class="list-group"> Microsoft Store
+            <li class="list-group-item"><a href="#">Account profile</a></li>
+            <li class="list-group-item"><a href="#">Download Center</a></li>
+            <li class="list-group-item"><a href="#">Microsoft Store support</a></li>
+            <li class="list-group-item"><a href="#">Returns</a></li>
+            <li class="list-group-item"><a href="#">Order tracking</a></li>
+            <li class="list-group-item"><a href="#">Virtual workshops and training</a></li>
+            <li class="list-group-item"><a href="#">Microsoft Store Promise</a></li>
+            <li class="list-group-item"><a href="#">Flexible Payments</a></li>
+        </ul>
+    </div>
+    <div class="col-2">
+        <ul class="list-group"> Education
+            <li class="list-group-item"><a href="#">Microsoft in education</a></li>
+            <li class="list-group-item"><a href="#">Office for students</a></li>
+            <li class="list-group-item"><a href="#">Office 365 for schools</a></li>
+            <li class="list-group-item"><a href="#">Deals for students & parents</a></li>
+            <li class="list-group-item"><a href="#">Microsoft Azure in education</a></li>
+            <li class="list-group-item"><a href="#">Education consultation appointment</a></li>
+        </ul>
+    </div>
+    <div class="col-2">
+        <ul class="list-group"> Enterprise
+            <li class="list-group-item"><a href="#">Azure</a></li>
+            <li class="list-group-item"><a href="#">AppSource</a></li>
+            <li class="list-group-item"><a href="#">Automotive</a></li>
+            <li class="list-group-item"><a href="#">Government</a></li>
+            <li class="list-group-item"><a href="#">Healthcare</a></li>
+            <li class="list-group-item"><a href="#">Manufacturing</a></li>
+            <li class="list-group-item"><a href="#">Financial services</a></li>
+            <li class="list-group-item"><a href="#">Retail</a></li>
+        </ul>
+    </div>
+    <div class="col-2">
+        <ul class="list-group"> Developer
+            <li class="list-group-item"><a href="#">Microsoft Visual Studio</a></li>
+            <li class="list-group-item"><a href="#">Windows Dev Center</a></li>
+            <li class="list-group-item"><a href="#">Developer Center</a></li>
+            <li class="list-group-item"><a href="#">Microsoft developer program</a></li>
+            <li class="list-group-item"><a href="#">Channel 9</a></li>
+            <li class="list-group-item"><a href="#">Microsoft 365 Dev Center</a></li>
+            <li class="list-group-item"><a href="#">Microsoft 365 Developer Program</a></li>
+            <li class="list-group-item"><a href="#">Microsoft Garage</a></li>
+
+        </ul>
+    </div>
+
+    <div class="col-2">
+        <ul class="list-group"> Company
+            <li class="list-group-item"><a href="#">Careers</a></li>
+            <li class="list-group-item"><a href="#">About Microsoft</a></li>
+            <li class="list-group-item"><a href="#">Company news</a></li>
+            <li class="list-group-item"><a href="#">Privacy at Microsoft</a></li>
+            <li class="list-group-item"><a href="#">Investors</a></li>
+            <li class="list-group-item"><a href="#">Diversity and inclusion</a></li>
+            <li class="list-group-item"><a href="#">Accessibility</a></li>
+            <li class="list-group-item"><a href="#">Security</a></li>
+        </ul>
+    </div>
+
+</section>
+
+</body>
+</html>
